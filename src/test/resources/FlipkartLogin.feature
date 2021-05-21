@@ -1,5 +1,7 @@
+
 Feature: user going to valid the flipkart login
 
+@Sanity
   Scenario: user has to valid the invalid email and invalid passward
     Given user has to launch the browser and hit the flipkart url
     When user has to click the login btn

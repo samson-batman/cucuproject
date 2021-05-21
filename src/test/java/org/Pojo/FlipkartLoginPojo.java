@@ -2,6 +2,7 @@ package org.Pojo;
 
 import org.Base.BaseClass;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,7 +14,10 @@ public class FlipkartLoginPojo extends BaseClass {
 		@FindBy(xpath="//a[@class='_1_3w1N']")
 		private WebElement loginbtn;
 		
-		@FindBy(xpath="//input[@type='text']")
+		@FindAll({
+			@FindBy(xpath="(//input[@type='text'])[2]"),
+			@FindBy(xpath="(//input[@autocomplete='off'])[2]")
+		})
 		private WebElement username;
 		
 		@FindBy(xpath="//input[@type='password']")
