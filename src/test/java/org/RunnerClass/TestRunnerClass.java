@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith (Cucumber.class)
-@CucumberOptions(features="src/test/resources",glue="org.stepdefinition",dryRun=false,strict=false,monochrome=false,tags= "@Sanity")
+@CucumberOptions(features="src/test/resources",glue="org.stepdefinition",dryRun=false,strict=false,monochrome=false,tags= "@Smoke")
 public class TestRunnerClass {
 
 }

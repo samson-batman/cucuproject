@@ -35,7 +35,7 @@ element.click();
 	}
 	
 	
-	public void exist() {
+	public void exit() {
 
 		driver.close();
 	}
