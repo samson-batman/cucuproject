@@ -1,5 +1,5 @@
 Feature: User has to validate the amazon login
-
+@Smoke
 Scenario: User has to validate with valid username and invalid passward
 
 Given user as to launch the browser and hit amz url
