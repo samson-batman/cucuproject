@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8991355000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User has to validate with valid username and invalid passward",
+        "description": "",
+        "id": "user-has-to-validate-the-amazon-login;user-has-to-validate-with-valid-username-and-invalid-passward",
+        "after": [
+          {
+            "result": {
+              "duration": 640072200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterexection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7217830300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user as to launch the browser and hit amz url",
+            "match": {
+              "location": "AmazonLogin.user_as_to_launch_the_browser_and_hit_amz_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4048412500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user as to pass the valid email",
+            "match": {
+              "location": "AmazonLogin.user_as_to_pass_the_valid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2598302400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user as to click the continue btn",
+            "match": {
+              "location": "AmazonLogin.user_as_to_click_the_continue_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159774000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user as to pass the invalid passward",
+            "match": {
+              "location": "AmazonLogin.user_as_to_pass_the_invalid_passward()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106277800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user as to click the signin btn",
+            "match": {
+              "location": "AmazonLogin.user_as_to_click_the_signin_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2857842000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user as to the browser",
+            "match": {
+              "location": "AmazonLogin.user_as_to_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User has to validate the amazon login",
+    "description": "",
+    "id": "user-has-to-validate-the-amazon-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AmazonLogin.feature",
+    "tags": []
+  }
+]
