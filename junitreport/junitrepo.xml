@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.622794">
+<testcase classname="User has to validate the amazon login" name="User has to validate with valid username and invalid passward" time="26.622794">
+<system-out><![CDATA[Given user as to launch the browser and hit amz url.........................passed
+When user as to pass the valid email........................................passed
+And user as to click the continue btn.......................................passed
+And user as to pass the invalid passward....................................passed
+And user as to click the signin btn.........................................passed
+Then user as to the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

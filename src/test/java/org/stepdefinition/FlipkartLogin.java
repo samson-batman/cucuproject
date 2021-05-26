@@ -54,7 +54,7 @@ public class FlipkartLogin extends BaseClass {
 
 	@Then("user has to close the browser")
 	public void user_has_to_close_the_browser() {
-	  exist();
+	  exit();
 	}
 
 
