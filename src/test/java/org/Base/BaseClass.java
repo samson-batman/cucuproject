@@ -3,6 +3,7 @@ package org.Base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -29,8 +30,8 @@ driver.manage().window().maximize();
     element.sendKeys(text);
 	}
 	
-	public void btnClick(WebElement element) {
-element.click();
+	public  void clickButton(WebElement element) {
+      element.click();
 		
 	}
 	
@@ -40,5 +41,10 @@ element.click();
 		driver.close();
 	}
 	
+	public static void moveMouse(WebElement element) {
+Actions a = new Actions(driver);
+a.moveToElement(element).perform();
+
+	}
 	
 }
