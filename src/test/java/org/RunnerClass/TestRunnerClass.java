@@ -7,6 +7,9 @@ import org.stepdefinition.JvmReportGeneration;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+
+
+//hey this sam
 @RunWith (Cucumber.class)
 @CucumberOptions(features="src/test/resources",glue="org.stepdefinition",dryRun=false,strict=false,monochrome=false,tags= "@Smoke",plugin= {"html:target","junit:junitreport\\junitrepo.xml","json:jsonreport\\jsonrepo.json"})
 public class TestRunnerClass {
